@@ -1,4 +1,4 @@
-# Upload and Download tranlsation files with Github Actions
+# Synchronize tranlsation files with SimpleLocalize
 
 
 ## ☁️ Example download action
