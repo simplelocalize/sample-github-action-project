@@ -1,0 +1,30 @@
+{
+  "en": {
+    "DESCRIPTION": "Translation Management for software projects",
+    "LEARN_MORE": "Learn more",
+    "OPEN_GITHUB_REPOSITORY": "Open GitHub Repository",
+    "USE_BUTTONS_BELOW": "Use buttons below to switch between languages",
+    "test": "test",
+    "test2": "Hello World!"
+  },
+  "pl": {
+    "DESCRIPTION": "Zarządzanie tłumaczeniami dla projektów programistycznych",
+    "LEARN_MORE": "Dowiedz się więcej",
+    "OPEN_GITHUB_REPOSITORY": "Otwórz repozytorium na GitHub",
+    "USE_BUTTONS_BELOW": "Użyj przycisków poniżej aby zmienić wersję językową"
+  },
+  "fr_FR": {
+    "DESCRIPTION": "Gestion de la traduction pour les projets logiciels",
+    "LEARN_MORE": "Apprendre encore plus",
+    "OPEN_GITHUB_REPOSITORY": "Ouvrir le référentiel GitHub",
+    "USE_BUTTONS_BELOW": "Utilisez les boutons ci-dessous pour basculer entre les langues",
+    "test": "test",
+    "test2": "Bonjour le monde!"
+  },
+  "es": {
+    "DESCRIPTION": "Gestión de traducciones para los proyectos informáticos",
+    "LEARN_MORE": "Más información",
+    "OPEN_GITHUB_REPOSITORY": "Abrir el repositorio GitHub",
+    "USE_BUTTONS_BELOW": "Usa botones abajo para cambiar de idioma"
+  }
+}
