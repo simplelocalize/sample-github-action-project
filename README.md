@@ -1,7 +1,7 @@
 # Upload and Download tranlsation files with Github Actions
 
 
-## Example download action
+## ☁️ Example download action
 
 ```yml
 name: 'Download translations'
@@ -22,7 +22,7 @@ jobs:
           downloadFormat: multi-language-json
 ```
 
-## Example upload action
+## ☁️ Example upload action
 
 ```yml
 name: 'Upload translations'
