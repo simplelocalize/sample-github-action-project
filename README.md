@@ -1,5 +1,8 @@
 # Synchronize tranlsation files with SimpleLocalize
 
+This Github Actions uses official and open-source SimpleLocalize CLI.
+
+Learn more: https://github.com/simplelocalize/simplelocalize-cli
 
 ## ☁️ Example download action
 
