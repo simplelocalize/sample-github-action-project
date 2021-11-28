@@ -1,4 +1,4 @@
-name: 'Upload translations to SimpleLocalize i18n Editor'
+name: 'Upload translations'
 on:
   push:
     branches: [ main ]
