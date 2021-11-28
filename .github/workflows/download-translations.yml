@@ -1,4 +1,4 @@
-name: 'Download translations from SimpleLocalize i18n Editor'
+name: 'Download translations'
 on:
   push:
     branches: [ main ]
