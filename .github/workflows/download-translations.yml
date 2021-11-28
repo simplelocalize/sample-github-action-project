@@ -12,5 +12,5 @@ jobs:
         uses: simplelocalize/download@latest
         with:
           apiKey: Fb833361435A6d2A4E226f439EA7974bEFba7D3E69E29912cf928aB93f435A69
-          uploadPath: ./output-sample.json
-          uploadFormat: multi-language-json
+          downloadPath: ./output-sample.json
+          downloadFormat: multi-language-json
