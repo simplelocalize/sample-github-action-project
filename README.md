@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download translations
-        uses: simplelocalize/download@latest
+        uses: simplelocalize/download@2.0
         with:
           apiKey: <YOUR_API_KEY>
           downloadPath: ./output-sample.json
@@ -39,7 +39,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Upload translations
-        uses: simplelocalize/upload@1.0.0
+        uses: simplelocalize/upload@2.0
         with:
           apiKey: <YOUR_API_KEY>
           uploadPath: ./input-sample.json
