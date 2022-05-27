@@ -12,5 +12,5 @@ jobs:
         uses: simplelocalize/download@2.0
         with:
           apiKey: MY_API_KEY
-          downloadPath: ./{ns}/{lang}/output-sample.json
+          downloadPath: ./locales/{ns}/messages-{lang}.json
           downloadFormat: single-language-json
