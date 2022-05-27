@@ -10,7 +10,7 @@ Learn more: https://github.com/simplelocalize/simplelocalize-cli
 name: 'Download translations'
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
 
 jobs:
   build:
@@ -18,10 +18,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download translations
-        uses: simplelocalize/download@2.0
+        uses: simplelocalize/download@latest
         with:
           apiKey: <YOUR_API_KEY>
-          downloadPath: ./output-sample.json
+          downloadPath: ./locales/{ns}/{lang}-messages.json
           downloadFormat: multi-language-json
 ```
 
@@ -31,7 +31,7 @@ jobs:
 name: 'Upload translations'
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
 
 jobs:
   build:
@@ -39,9 +39,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Upload translations
-        uses: simplelocalize/upload@2.0
+        uses: simplelocalize/upload@latest
         with:
           apiKey: <YOUR_API_KEY>
-          uploadPath: ./input-sample.json
+          uploadPath: ./locales/{ns}/{lang}-messages.json
           uploadFormat: multi-language-json
 ```
