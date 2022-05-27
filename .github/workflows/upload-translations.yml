@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: SimpleLocalize Upload
-        uses: simplelocalize/upload@1.0.0
+        uses: simplelocalize/upload@2.0
         with:
-          apiKey: Fb833361435A6d2A4E226f439EA7974bEFba7D3E69E29912cf928aB93f435A69
-          uploadPath: ./input-sample.json
-          uploadFormat: multi-language-json
+          apiKey: <MY_API_TOKEN>
+          uploadPath: ./locales/{ns}/messages-{lang}.json
+          uploadFormat: single-language-json
