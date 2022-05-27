@@ -9,8 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: SimpleLocalize Download
-        uses: simplelocalize/download@latest
+        uses: simplelocalize/download@2.0
         with:
-          apiKey: Fb833361435A6d2A4E226f439EA7974bEFba7D3E69E29912cf928aB93f435A69
-          downloadPath: ./output-sample.json
-          downloadFormat: multi-language-json
+          apiKey: MY_API_KEY
+          downloadPath: ./{ns}/{lang}/output-sample.json
+          downloadFormat: single-language-json
